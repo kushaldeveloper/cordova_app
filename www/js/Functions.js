@@ -13,7 +13,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
       }
       );
   
-    /*document.getElementById("btn1").addEventListener("click",cameraTakePicture);
+    document.getElementById("btn1").addEventListener("click",cameraTakePicture);
     function cameraTakePicture(){
 		alert("camera is starting");
 		alert("camera :" +navigator.camera);
@@ -30,6 +30,6 @@ document.addEventListener("deviceready",onDeviceReady,false);
 					   } 
 						function onFail(message) { 
 						  alert('Failed because: ' + message); 
-					   }*/
+					   }
 
 	}

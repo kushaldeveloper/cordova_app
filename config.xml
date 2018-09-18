@@ -25,4 +25,5 @@
     </platform>
     <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-plugin-barcodescanner" spec="^0.7.4" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
 </widget>

@@ -1,7 +1,7 @@
 document.addEventListener("deviceready",onDeviceReady,false);
 	function onDeviceReady(){
 		alert("device is starting");
-	      cordova.plugins.barcodeScanner.scan(
+	     /* cordova.plugins.barcodeScanner.scan(
 	      function scanBarCode(result) {
           alert("Barcode found\n" +
                 "Access" + result.text + "\n" +
@@ -11,7 +11,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
       function scanBarCode(error) {
           alert("you need to download barcodescanner" + error);
       }
-      );
+      );*/
   
     document.getElementById("btn1").addEventListener("click",cameraTakePicture);
     function cameraTakePicture(){

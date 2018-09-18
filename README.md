@@ -1,1 +1,1 @@
-# cordova_app
+# CorodovaApp

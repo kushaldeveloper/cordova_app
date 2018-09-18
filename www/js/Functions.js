@@ -31,6 +31,12 @@ document.addEventListener("deviceready",onDeviceReady,false);
           alert("Scanning failed: " + error);
       }
    );
+   cordova.plugins.barcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
+            alert("encode success: " + success);
+          }, function(fail) {
+            alert("encoding failed: " + fail);
+          }
+        );
 					   
 
 	}
